@@ -1,0 +1,41 @@
+body{
+font-family: 'Open Sans', sans-serif;
+color: #745a82;
+width: 1440px;
+text-align: center;
+
+}
+
+/* Navigation bar */
+.small-box{
+  background-color: #745a82;
+  margin-bottom: 0;
+}
+
+/* Title  */
+.banner-front-img{
+  position: absolute;
+  top: 20rem;
+  left:22rem;
+
+}
+.title{
+  position: absolute;
+  top:35rem;
+  left:28rem;
+}
+.heading{
+  line-height: 2;
+  font-size:3rem;
+  font-weight: 300;
+
+}
+.bold-text{
+  font-weight: bold;
+}
+.heading-text{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 2% 15%;
+
+}
