@@ -1,41 +1,207 @@
 body{
 font-family: 'Open Sans', sans-serif;
 color: #745a82;
-width: 1440px;
 text-align: center;
 
 }
-
-/* Navigation bar */
-.small-box{
-  background-color: #745a82;
-  margin-bottom: 0;
+h3{
+  font-weight: bold;
 }
+//h2{
+   line-height: 2;
+}
+/* Navigation bar */
 
 /* Title  */
+#title{
+
+}
+.site-container{
+  padding:0;
+}
+.navbar{
+  border-top: 10px solid;
+  z-index:100;
+  position: relative;
+}
+.nav-link{
+  color: #745a82;
+  font-weight: bold;
+}
+.nav-item{
+  margin: 0 3rem;
+  color: #745a82;
+  font-weight: bold;
+}
+.banner-img{
+  width: 100%;
+
+}
 .banner-front-img{
   position: absolute;
-  top: 20rem;
+  width:50%;
+  height: 50%;
+  top: 12rem;
   left:22rem;
 
 }
 .title{
   position: absolute;
-  top:35rem;
+  top:27rem;
   left:28rem;
 }
 .heading{
   line-height: 2;
   font-size:3rem;
-  font-weight: 300;
-
 }
 .bold-text{
   font-weight: bold;
+
 }
 .heading-text{
   font-size: 1.5rem;
   font-weight: bold;
   padding: 2% 15%;
 
+}
+
+/* CLasses Section */
+.class-wrapper{
+  padding-left:30px;
+}
+.classes-title{
+  padding:3% 15% 8%;
+}
+.classes-img{
+  width: 50%;
+}
+.classes-text{
+  text-align: left;
+  padding:1% 25%;
+
+}
+.fas{
+  text-align: left;
+}
+.showmore {
+  padding: 15px 60px;
+  background-color: #745a82;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  letter-spacing: 3px;
+  margin: 30px;
+}
+
+.showmore:hover {
+  background-color: #512b58;
+}
+
+
+/* Discount section */
+
+.discount-img{
+  width: 100%;
+  margin-top: 3rem;
+  position: relative;
+}
+.round-img{
+  width:300px;
+  position: absolute;
+  left:10px;
+  background-color: #fff;
+  border-radius: 100%
+}
+.round-img-text{
+  position: absolute;
+  font-size: 3rem;
+  top:126rem;
+  left:4rem;
+}
+
+/* Healthy life section */
+.hl-hr {
+  width: 100%;
+   text-align: center;
+   border-bottom: 1px solid #745a82;
+   line-height: .1em;
+   padding-top: 5rem;
+}
+
+.hl-hr span {
+  background:#fff;
+  padding:0 10px;
+}
+.healthy-img{
+  width:15%;
+  padding:10% 0;
+}
+.healthy-text{
+    padding:5% 20%;
+}
+.healthy{
+  padding:0;
+}
+/* Summer classes */
+.class-title{
+  padding:2rem 0 4rem 0;
+  letter-spacing: 5px;
+}
+
+/* Workshop */
+.ws-vertical-text{
+ writing-mode: vertical-rl;
+ text-orientation: upright;
+ text-align: justify;
+}
+.ws-title{
+  text-align: left;
+
+
+}
+.workshop{
+  padding:5% 0 5% 10%;
+}
+.ws-heading{
+  padding-bottom: 1.5rem;
+}
+.ws-bg-img{
+position: relative;
+width:70%;
+}
+.ws-ft-img{
+   position:absolute;
+   width:50%;
+   z-index: 1;
+     right: 10rem;
+     top: 3rem;
+
+}
+.ws-date{
+  margin-bottom: 0;
+
+}
+.left-icon{
+  font-size: 1.5rem;
+position: relative;
+top:15rem;
+}
+
+/* About section */
+#about-section{
+  padding-bottom: 3%;
+  border-bottom: 25px solid;
+}
+.about-title{
+  padding: 5% 25%;
+}
+.about-text{
+  text-align: left;
+  padding-left: 15%;
+}
+.about-heading{
+  margin-top:5%
 }
